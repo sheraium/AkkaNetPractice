@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1_1_ActorsAndActorSystem", "Lesson1_1_ActorsAndActorSystem\Lesson1_1_ActorsAndActorSystem.csproj", "{3C30D600-3871-41BD-AF8B-92C479A09FEC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AkkaBootcamp", "AkkaBootcamp", "{C2FFD6BB-75B0-422C-B6B8-63B4B38FE987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,5 +35,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB59C5FC-1FC8-4235-99C9-D29CCF8732D8}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C30D600-3871-41BD-AF8B-92C479A09FEC} = {C2FFD6BB-75B0-422C-B6B8-63B4B38FE987}
 	EndGlobalSection
 EndGlobal
