@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1_2_DefiningAndHandin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1_3_PropsAndIActorRefs", "Lesson1_3_PropsAndIActorRefs\Lesson1_3_PropsAndIActorRefs.csproj", "{BB3CFB00-905B-4A59-B377-BBB4A28664C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1_4_ChildActorHierarchiesAndSupervision", "Lesson1_4_ChildActorHierarchiesAndSupervision\Lesson1_4_ChildActorHierarchiesAndSupervision.csproj", "{6A3CAE35-B405-42CC-BA1D-208A36797931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{BB3CFB00-905B-4A59-B377-BBB4A28664C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB3CFB00-905B-4A59-B377-BBB4A28664C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB3CFB00-905B-4A59-B377-BBB4A28664C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3CAE35-B405-42CC-BA1D-208A36797931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3CAE35-B405-42CC-BA1D-208A36797931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3CAE35-B405-42CC-BA1D-208A36797931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3CAE35-B405-42CC-BA1D-208A36797931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +58,6 @@ Global
 		{3C30D600-3871-41BD-AF8B-92C479A09FEC} = {C2FFD6BB-75B0-422C-B6B8-63B4B38FE987}
 		{B651DF45-EF59-4FDA-9AD1-6710CE9079E5} = {C2FFD6BB-75B0-422C-B6B8-63B4B38FE987}
 		{BB3CFB00-905B-4A59-B377-BBB4A28664C8} = {C2FFD6BB-75B0-422C-B6B8-63B4B38FE987}
+		{6A3CAE35-B405-42CC-BA1D-208A36797931} = {C2FFD6BB-75B0-422C-B6B8-63B4B38FE987}
 	EndGlobalSection
 EndGlobal

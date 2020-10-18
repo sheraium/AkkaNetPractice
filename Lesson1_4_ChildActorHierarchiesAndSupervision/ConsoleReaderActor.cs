@@ -1,11 +1,12 @@
 ﻿using System;
 using Akka.Actor;
+using Akka.Dispatch.SysMsg;
 
-namespace Lesson1_3_PropsAndIActorRefs
+namespace Lesson1_4_ChildActorHierarchiesAndSupervision
 {
     /// <summary>
     ///     Actor responsible for reading FROM the console.
-    ///     Also responsible for calling <see cref="ActorSystem.Terminate" />.
+    ///     Also responsible for calling <see cref="Terminate" />.
     /// </summary>
     internal class ConsoleReaderActor : UntypedActor
     {
@@ -30,9 +31,7 @@ namespace Lesson1_3_PropsAndIActorRefs
 
         private void DoPrintInstructions()
         {
-            Console.WriteLine("Write whatever you want into the console!");
-            Console.WriteLine("Some entries will pass validation, and some won't...\n\n");
-            Console.WriteLine("Type 'exit' to quit this application at any time.\n");
+            Console.WriteLine("Please provide the URI of a log file on disk.\n");
         }
 
 
