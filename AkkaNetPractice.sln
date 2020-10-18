@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1_1_ActorsAndActorSys
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AkkaBootcamp", "AkkaBootcamp", "{C2FFD6BB-75B0-422C-B6B8-63B4B38FE987}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1_2_DefiningAndHandingMessages", "Lesson1_2_DefiningAndHandingMessages\Lesson1_2_DefiningAndHandingMessages.csproj", "{B651DF45-EF59-4FDA-9AD1-6710CE9079E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{3C30D600-3871-41BD-AF8B-92C479A09FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C30D600-3871-41BD-AF8B-92C479A09FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C30D600-3871-41BD-AF8B-92C479A09FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B651DF45-EF59-4FDA-9AD1-6710CE9079E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B651DF45-EF59-4FDA-9AD1-6710CE9079E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B651DF45-EF59-4FDA-9AD1-6710CE9079E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B651DF45-EF59-4FDA-9AD1-6710CE9079E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +44,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3C30D600-3871-41BD-AF8B-92C479A09FEC} = {C2FFD6BB-75B0-422C-B6B8-63B4B38FE987}
+		{B651DF45-EF59-4FDA-9AD1-6710CE9079E5} = {C2FFD6BB-75B0-422C-B6B8-63B4B38FE987}
 	EndGlobalSection
 EndGlobal
